@@ -1,11 +1,11 @@
 function createArray(number) {
-  const newArray = [10];
-
-  for (let counter = 1; ; counter <= number) {
-    newArray.push(counter);
-  }
-
-  return newArray[2];
+    const newArray = [];
+    if (number > 0) {
+        for (let counter = 0; counter < number; counter++) {
+            newArray.push(counter + 1);
+        }
+    }
+    return newArray;
 }
 
 console.log("tablica z liczbami do 6 = " + createArray(6));

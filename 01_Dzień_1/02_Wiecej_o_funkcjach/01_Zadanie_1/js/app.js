@@ -4,8 +4,9 @@ function firstFunc() {
   function secondFunc() {
     console.log(someInt);
 
-    const otherInt = 3;
+    
   }
+  const otherInt = 3;
 
   secondFunc();
 
