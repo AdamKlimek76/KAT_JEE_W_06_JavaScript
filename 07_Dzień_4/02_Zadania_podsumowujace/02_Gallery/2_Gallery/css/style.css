@@ -1,3 +1,4 @@
+
 .gallery ul {
     list-style: none;
 }
@@ -7,8 +8,8 @@
 }
 
 .gallery li img {
-    width: 600px;
-    height: 600px;
+    width: 150px;
+    height: 150px;
 }
 
 .fullScreen {
